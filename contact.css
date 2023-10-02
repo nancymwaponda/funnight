@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(image/lightgold.jpeg);
+}
+.news-list {
+    background: rgb(99,37,22);
+    color: rgb(230, 230, 240);
+    padding: 7px;
+    font-size: 20px;
+}
+
+.report {
+    font-size: 22px;
+    color: rgb(228, 220, 220);
+    width: 80%;
+}
+
+nav {
+    background: rgb(99, 37, 22);
+    border-radius: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 50px;
+    text-transform: uppercase;
+    justify-content: center;
+    margin: 40px;
+}
+
+nav ul {
+    justify-content: center;
+    margin: 10;
+    padding: 10px;
+    display: flex;
+    list-style-type: none;
+}
+
+nav a {
+    color: rgb(15, 15, 15);
+    margin-left: 50px;
+}
+
+a.active,
+a:hover {
+    color: white;
+    background: rgb(119, 96, 66);
+    transition: 2s;
+}
+
+.container1 {
+    margin: auto;
+    background: url(image/index.jpeg);
+    background-size: cover;
+    width: 380px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 26px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+form input {
+    width: 75%;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid gainsboro;
+    padding: 7px;
+}
+
+input[type="submit"] {
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+    background-color: goldenrod;
+    margin-top: 23px;
+    height: 35px;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    color: black;
+    background: darkslateblue;
+}
+
+form textarea {
+    height: 100px;
+    width: 300px;
+    resize: vertical;
+
+
+}

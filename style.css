@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}.body{
+    background:linear-gradient(skyblue grey);
+
+}
+.news-list{
+    background: #725074;
+    color: rgb(13, 13, 14);
+    padding: 7px;
+    font-size: 20px;}
+    .report{
+        font-size: 22px;
+        color: rgb(8, 8, 8);
+        width: 80%;}
+.container {
+    display: flex;
+    height: 80vh;
+}
+.image {
+    font-size: smaller;
+    background: linear-gradient(rgb(85, 20, 85), rgb(48, 6, 37));
+    width: 18%;
+    float: left;
+}
+.image img {
+    border: groove 2px rgb(219, 206, 206);
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    padding: 4px;
+}
+.content p{
+    font-size: 20px;
+    /* background: linear-gradient(rgb(85,20,85), rgb(48, 6, 44)); */
+    width: 80vh;
+    height:70vh;
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    display: flex;
+    margin: 19px 0px;
+}.Bio{
+    background-color: rgb(143, 42, 121);
+    width: 70%;
+    font-family: monospace;
+    height: 40vh;
+    border-radius: 10px;
+    margin-right: 10px;
+}.Bio nav{
+    padding: 45px;
+}.Bio nav li{
+    list-style: none;
+    font-size: 14px;
+    padding: 18px 0;
+    cursor: pointer;
+    color: black;
+}.buttons{
+    margin-top: 78px;
+}.buttons button{
+    padding: 7px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0 17px;
+    cursor: pointer;
+}.buttons button:hover{
+    color: red;
+    background:url(image/neonlight.jpeg);
+}.contactform{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+
+}.contactform h1{
+    font-family: monospace;
+    text-align: center;
+    font-style: italic;
+    color: blue;
+}.main-form{
+background: url(image/lightgold.jpeg);
+background-size: contain;
+}.form-group label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+}.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    resize:both;
+}.form-group input[type="submit"]{
+    background-color: violet;
+    color: black;
+    cursor: pointer;
+}.form-group input[type="submit"]:hover{
+    background-color: aqua;
+}.form-group textarea{
+    height: 120px;
+
+}

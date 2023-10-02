@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}body{
+    background: url(image/neonlight.jpeg);
+    background-size: cover;
+}
+.news-list{
+    background: #725074;
+    color: rgb(13, 13, 14);
+    padding: 7px;
+    font-size: 20px;}
+    .report{
+        font-size: 22px;
+        color: rgb(8, 8, 8);
+        width: 80%;}
+        .image {
+            font-size: 20px;
+            font-family: georgia;
+            /* background: linear-gradient(rgb(41, 31, 41), rgb(48, 6, 37)); */
+            width: 80%;
+            float: left;
+        }.image img {
+            border: groove 2px rgb(219, 206, 206);
+            border-radius: 50%;
+            height: 150px;
+            width: 170px;
+            padding: 4px;
+        }nav{
+            background: rgb(99, 37, 22);
+            border-radius: 25px;
+        }nav ul li a{
+            text-decoration: none;
+            margin-left: 50px;
+            text-transform: uppercase;
+            justify-content: center;
+            margin: 40px;
+        
+        }nav ul{
+            justify-content: center ;
+            margin: 10;
+            padding: 10px;
+            display: flex;
+            list-style-type:none;
+        }nav a{
+            color: rgb(12, 12, 12);
+            margin-left: 50px;}
+            a.active,
+a:hover {
+    color:white;
+    background: rgb(119, 96, 66);
+    transition: 2s;}
+        p{
+             font-style: italic;
+            margin: 50px 20px;
+            color: #fcf;
+            letter-spacing: 2px;
+            line-height: 28px;
+            font-size: 18px;
+            margin-bottom: 45px;
+        }
+     .About{
+        width: 100%;
+        padding: 70px 0;
+        background: linear-gradient(rgb(41, 31, 41), rgb)(48, 6, 37);
+     }.content{
+        margin: 0 auto;
+        width: 1130px;
+        display: flex;
+        align-items:center;
+        justify-content: space-around;
+     }button{
+        background: url(image/neonlight.jpeg);
+        color: blue;
+        border: 2px solid transparent;
+        font-weight: bolder;
+        padding: 10px 29px;
+        border-radius: 2303px;
+     }button:hover{
+        background: aquamarine;
+        border:2px solid transparent ;
+        cursor:wait;
+     }
